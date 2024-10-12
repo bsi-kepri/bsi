@@ -1,0 +1,150 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: rgb(253, 151, 27);
+    color: white;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 0px 4px 8px rgba(21, 227, 227, 0.986);
+    z-index: 200;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.logo img {
+    width: 200px; /* Ukuran logo lebih besar */
+}
+
+.title-container {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.title-container h1 {
+    margin: 0;
+    font-size: 2rem;
+    font-family: 'Roboto Slab', serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.tools {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.tools a {
+    padding: 10px 20px;
+    background-color: #10b5a7;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1rem;
+    margin-bottom: 5px;
+    transition: background-color 0.3s;
+}
+
+.tools a:hover {
+    background-color: #0d978d;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(252, 137, 43);
+    align-items: center;
+    box-shadow: 0px 4px 8px rgba(5, 248, 248, 0.872);
+    margin-top: 80px; /* Tambahkan margin atas untuk menghindari tumpang tindih */
+}
+
+nav a {
+    color: white;
+    padding: 15px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    background-color: #10b5a7;
+}
+
+.hero {
+    background-image: url('../img/FOTO GADAI 3.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    text-align: center;
+    color: rgb(250, 250, 250);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 120px; /* Jarak tambahan untuk elemen di bawah header */
+}
+
+.hero h1 {
+    font-size: 3rem;
+    background-color: rgba(16, 181, 167, 0.5);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.container {
+    padding: 20px;
+}
+
+/* Memusatkan judul dan mengganti font */
+h2#layanan {
+    font-family: 'Poppins', sans-serif; /* Font baru */
+    text-align: center; /* Memusatkan judul */
+    font-size: 2.5rem;
+    font-weight: 600;
+    color:rgb(253, 151, 27);
+    margin-bottom: 20px;
+}
+
+.services {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px; /* Tambahkan jarak antara bagian services dan lainnya */
+}
+
+.service {
+    background-color: #10b5a7; /* Warna latar belakang */
+    color: white; /* Warna teks */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    text-align: center;
+    cursor: pointer; /* Menambahkan kursor pointer saat hover */
+    transition: transform 0.2s, background-color 0.3s; /* Tambahkan transisi untuk efek hover */
+}
+
+.service:hover {
+    transform: scale(1.05); /* Efek zoom saat hover */
+    background-color: rgb(253, 151, 27); /* Ganti warna saat hover */
+}
+
+footer {
+    padding: 20px;
+    background-color: #10b5a7;
+    color: white;
+    text-align: center;
+}   
